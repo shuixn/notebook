@@ -1,4 +1,4 @@
-这篇文章是翻译，原文[Why Flutter Uses Dart](https://medium.com/hackernoon/why-flutter-uses-dart-dd635a054ebf)
+这篇笔记是翻译，原文[Why Flutter Uses Dart](https://medium.com/hackernoon/why-flutter-uses-dart-dd635a054ebf)
 
 许多语言学家认为，一个人说的自然语言会影响他们的思维方式。同样的概念是否也适用于计算机语言？对于同一个问题，使用不同类型的编程语言的程序员往往会想出截然不同的解决方案。这里有一个更极端的例子，计算机科学家们为了鼓励更多的结构化程序而去掉了GOTO声明（与小说《1984》中的极权主义领袖从自然语言中驱逐异端词以消除思想罪的说法不尽相同，但你会明白的）。
 
@@ -20,7 +20,7 @@
 
 并非所有这些功能都是Dart独有的，但它们的结合让Dart在实现Flutter方面具有独特的优势。以至于很难想象没有Dart，Flutter会有如此强大的功能。
 
-![图](https://miro.medium.com/max/1326/1*bAUFoOPQ3gcv7y4Kdz82tw.png)
+![Flutter loves Dart](https://miro.medium.com/max/1326/1*bAUFoOPQ3gcv7y4Kdz82tw.png)
 
 本文的其余部分将更深入地介绍Dart的许多特点（包括其标准库），使其成为*实现Flutter的最佳语言*。
 
