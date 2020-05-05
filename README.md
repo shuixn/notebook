@@ -1,4 +1,7 @@
-notebook
+编程日志
 ========
 
-a notebook:[read online](https://funsoul.gitbook.io/notebook/)
+1. 沉淀知识，记录想法，站在巨人的肩膀上。
+2. 提炼框架，锻造模型，不断更新知识体系。
+
+[>>在线阅读](https://funsoul.gitbook.io/notebook/)
