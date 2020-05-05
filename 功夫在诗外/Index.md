@@ -2,6 +2,6 @@
 
 ## 2020
 
-|Date|Title|Author|Link|
+|日期|书名|作者|译者|
 |----------|----------|----------|----------|
-|04-23|The Pragmatic Programmer: From Journeyman to Master|Andrew Hunt / David Thomas|[豆瓣](https://book.douban.com/subject/35006892/)|
+|04-23|[程序员修炼之道(第2版)](https://book.douban.com/subject/35006892/)|Andrew Hunt / David Thomas|[云风](https://blog.codingnow.com/)|
