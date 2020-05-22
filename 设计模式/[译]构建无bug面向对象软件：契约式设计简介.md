@@ -1,6 +1,6 @@
-这是一篇翻译，原文[Building bug-free 面向对象 software: An Introduction to Design by Contract](https://www.eiffel.com/values/design-by-contract/introduction/)
+这是一篇翻译，原文[Building bug-free O-O software: An Introduction to Design by Contract](https://www.eiffel.com/values/design-by-contract/introduction/)
 
-在我们看来，下面所概述的技术和其他对象技术一样重要---就像类、对象、继承、多态性和动态绑定一样重要，而这些技术又是它们的补充--尽管到目前为止，只有面向对象文献中的一个子集对它给予了关注。
+在我们看来，下面所概述的技术和其他对象技术一样重要——就像类、对象、继承、多态性和动态绑定一样重要，而这些技术又是它们的补充 —— 尽管到目前为止，只有面向对象文献中的一个子集对它给予了关注。
 
 为了超越本文提供的理论理解，体验其思想的实际威力，请看一下EiffelStudio环境，也就是它们的直接实现。
 
