@@ -100,8 +100,8 @@ with tf.device('/cpu:0'):
 
 具有讽刺意味的是，Spotify有一个用于机器学习的服务器集群：[Spotify怎么如此懂你？](https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe)
 
-也许未来，PHP写机器学习的需求会到来，但只要上述问题不解决，我们没有什么指望。
+也许未来，PHP写机器学习的需求会到来，但只要上述问题不解决，我们就别指望了。
 
-但也别太沮丧，下面是我最喜欢的一句名言:
+但也别太沮丧，下面是我最喜欢的一句名言:（译者注：该名言来自乔布斯）
 
 >那些疯狂到自以为他们能够改变世界的人才能真正地改变世界。
