@@ -4,6 +4,7 @@
 
 |日期|书名|作者|译者|
 |----------|----------|----------|----------|
+|06|[大型网站技术架构](https://book.douban.com/subject/25723064/)|李智慧|-|
 |06|[洞穴奇案](https://book.douban.com/subject/3697494)|萨伯|陈福勇 / 张世泰|
 |05|[系统思考](https://book.douban.com/subject/25963524/)|丹尼斯·舍伍德|邱昭良 / 刘昕|
 |05|[模型思维](https://book.douban.com/subject/34893628/)|斯科特•佩奇|贾拥民|
