@@ -4,6 +4,8 @@
 
 |日期|书名|作者|译者|
 |----------|----------|----------|----------|
+|07|[计算广告](https://book.douban.com/subject/26596778/)|Toby Segaran|莫映 / 王开福|
+|07|[集体智慧编程](https://book.douban.com/subject/3288908/)|刘鹏 / 王超|-|
 |06|[大型网站技术架构](https://book.douban.com/subject/25723064/)|李智慧|-|
 |06|[洞穴奇案](https://book.douban.com/subject/3697494)|萨伯|陈福勇 / 张世泰|
 |05|[系统思考](https://book.douban.com/subject/25963524/)|丹尼斯·舍伍德|邱昭良 / 刘昕|
