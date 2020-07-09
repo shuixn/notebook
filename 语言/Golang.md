@@ -10,6 +10,10 @@
 go env -w  GOPROXY=https://goproxy.cn,direct
 ```
 
+### INI配置
+
+[读取ini配置文件](https://www.cnblogs.com/pingyeaa/p/12489540.html)
+
 ## 依赖管理
 
 ### Mod
