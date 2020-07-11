@@ -1,3 +1,5 @@
+memcache相关
+
 ## slab allocator内存分配、管理机制
 
 1. 概念

@@ -1,3 +1,5 @@
+redis相关
+
 ## nosql分类
 
 1. 键值类：redis

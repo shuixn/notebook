@@ -1,3 +1,5 @@
+mac相关
+
 ## brew
 
 update比较慢，换个源吧
