@@ -52,15 +52,16 @@
                     1. 统计学认为分词是一个概率最大化问题，即拆分句子，基于语料库，统计相邻的字组成的词语出现的概率，相邻的词出现的次数多，就出现的概率大，按照概率值进行分词，所以一个完整的语料库很重要
                     2. N元文法模型（N-gram），隐马尔可夫模型（Hidden Markov Model ，HMM），最大熵模型（ME），条件随机场模型（Conditional Random Fields，CRF）
             2. 英文：空格和标点符号来分词
+        2. 二元语法：将相邻字符作为二元语法输出（根据清华大学2016年的工作：THUCTC: An Efficient Chinese Text Classifier）
     3. 特征组合与分桶标记(下文采用的文本例句：“小明去学校上自习”)
         1. 特征组合：将文本按一定长度阈值划分为两类（长文本的长度大于20，否则为短文本），如，“长文本_小明”、“短文本_学校”，通过组合特征使得模型从非线性的角度进行分类
         2. 分桶标记：采用不同的特征方法，如“skipgram:小明_学校”、“wordseg:小明”
-    4. 特征选择
-        1. [卡方检验](https://www.jianshu.com/p/807b2c2bfd9b)
+    4. 特征选择（[sklearn在文本分类任务中进行特征选择](https://scikit-learn.org/stable/auto_examples/text/plot_document_classification_20newsgroups.html#sphx-glr-auto-examples-text-plot-document-classification-20newsgroups-py)）
+        1. [卡方检验](https://www.jianshu.com/p/807b2c2bfd9b)：自变量对因变量的相关性。适用于稀疏数据
             1. 卡方值
             2. [自由度](https://www.jianshu.com/p/0032087b9dbb)
             3. 置信度
-        2. 信息增益
+        2. 方差域（VarianceThreshold）：是一个简单的用于特征提取的baseline方法。它将移除所有variance不满足一些阀值的特征。缺省情况下，它会移除所有``0-variance``的特征（表示该feature下具有相同值）
     5. 文本表示
         1. 词袋法：忽略其词序和语法，句法，将文本仅仅看做是一个词集合。若词集合共有NN个词，每个文本表示为一个NN维向量，元素为0/1，表示该文本是否包含对应的词。( 0, 0, 0, 0, .... , 1, ... 0, 0, 0, 0)
         2. n-gram词袋：与词袋模型类似，考虑了局部的顺序信息，但是向量的维度过大，基本不采用。如果词集合大小为N，则bi-gram的单词总数为N2向量空间模型。
