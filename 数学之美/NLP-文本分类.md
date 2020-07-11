@@ -56,7 +56,10 @@
         1. 特征组合：将文本按一定长度阈值划分为两类（长文本的长度大于20，否则为短文本），如，“长文本_小明”、“短文本_学校”，通过组合特征使得模型从非线性的角度进行分类
         2. 分桶标记：采用不同的特征方法，如“skipgram:小明_学校”、“wordseg:小明”
     4. 特征选择
-        1. 卡方检验
+        1. [卡方检验](https://www.jianshu.com/p/807b2c2bfd9b)
+            1. 卡方值
+            2. [自由度](https://www.jianshu.com/p/0032087b9dbb)
+            3. 置信度
         2. 信息增益
     5. 文本表示
         1. 词袋法：忽略其词序和语法，句法，将文本仅仅看做是一个词集合。若词集合共有NN个词，每个文本表示为一个NN维向量，元素为0/1，表示该文本是否包含对应的词。( 0, 0, 0, 0, .... , 1, ... 0, 0, 0, 0)
@@ -86,7 +89,21 @@
 ## 评估
 
 1. accuracy和error rate
-2. precision/recall/F-measure
+    1. acc是准确率，指正确预测的样本数与所有测试样本数的比率
+    2. acc + err = 1
+2. precision/recall/F1
+    1. 通过混淆矩阵计算得出：P为Positive，N为Negative
+        1. 4种组合
+            1. TP（true positive）：预测为P，答案是P
+            2. FP（false positive）：预测是P，答案是N
+            3. TN（true negative）：预测是N，答案是N
+            4. FN（false negative）：预测是N，答案是P
+        2. 样本全集 = TP U FP U FN U TN (U为"并集运算符")
+        3. 任何一个样本属于且只属于4个集合中的一个，即它们没有交集
+    2. precision是精确率，指预测结果中正类数量占全部结果的比率：P = TP / (TP + FP)
+    3. recall是召回率，指正类被找出来的比率：R = TP / (TP + FN)
+    4. F1：指精确率和召回率的调和平均值：F1 = 2 x P x R / (P + R)
+        1. 一般而言，精确率和召回率比较难平衡，召回率高的系统往往精确率低，反之亦然
 3. exact match（EM）
 4. mean reciprocal rank（MRR）
 
@@ -117,10 +134,10 @@
 
 ### 深度学习
 
-1. 复杂的场景下，缺乏数据集
+1. 复杂的场景下，缺乏数据集，可以试试[Google Dataset Search](https://datasetsearch.research.google.com/)
 2. 对知识进行建模：需要对文本信息中的知识进行建模，如构建知识库、知识图谱，并基于这些知识进行分析及推理
 3. 可解释性不强
-4. 更小、更高效的模型：针对BERT来说
+4. 更小、更高效的模型：针对BERT来说。前段时间Google发布了预训练小模型[ALBERT](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650770834&idx=1&sn=00afa700f63b8418de2d9ba61d01cb9d&scene=21#wechat_redirect)
 5. 小样本学习：当前深度学习的模型太依赖大量的标注数据
 
 ## 参考
@@ -128,3 +145,7 @@
 1. [文本分类算法综述](https://zhuanlan.zhihu.com/p/76003775)
 2. [深度学习文本分类综述](https://zhuanlan.zhihu.com/p/129271523)
 3. [中文文本分类：你需要了解的10项关键内容](https://www.jiqizhixin.com/articles/2018-10-29-10)
+4. [结合日常生活的例子，了解什么是卡方检验](https://www.jianshu.com/p/807b2c2bfd9b)
+5. [用可视化思维解读统计自由度](https://www.jianshu.com/p/0032087b9dbb)
+6. [新闻上的文本分类：机器学习大乱斗](https://zhuanlan.zhihu.com/p/26729228)
+7. [《自然语言处理入门》——何唅](https://book.douban.com/subject/34856701/)
