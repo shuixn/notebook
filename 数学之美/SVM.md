@@ -61,12 +61,12 @@ SVM应用广泛，包括
 
 ## 核技法（Kernel Trick）
 
-一种能够使用数据原始空间中的向量计算来表示升维后的空间中的点积结果的数学方法。具体表现为：K(u, v) = ![](https://microsoft.codecogs.com/svg.latex?\phi(u)\cdot\phi(v))。这个原始空间中的点积函数``K(u, v)``被叫做核函数
+一种能够使用数据原始空间中的向量计算来表示升维后的空间中的点积结果的数学方法。具体表现为：![](https://microsoft.codecogs.com/svg.latex?K(u,v)=\phi(u)\cdot\phi(v))。这个原始空间中的点积函数K(u, v)被叫做核函数
 
 ### 解决三个问题
 
 1. 无需担心![](https://microsoft.codecogs.com/svg.latex?\phi)是什么，因为非线性SVM中的核函数都是[正定核函数(positive definite kernel functions)](https://baike.baidu.com/item/%E6%AD%A3%E5%AE%9A%E6%A0%B8)，它们都满足[美世定律(Mercer's theorem)](https://blog.csdn.net/sinat_22510827/article/details/79116612)，确保了高维空间中任意两个向量的点积一定可以被低维空间中的这两个向量的某种计算来表示（多数时候是点积的某种变换）
-2. 使用核函数计算低维度中的向量关系比计算原本的 ![](https://microsoft.codecogs.com/svg.latex?/phi(x{i})\cdot\phi(x{test})) 要简单太多了
+2. 使用核函数计算低维度中的向量关系比计算原本的 ![](https://microsoft.codecogs.com/svg.latex?\phi(x{i})\cdot\phi(x{test})) 要简单太多了
 3. 因为计算是在原始空间中进行，所以避免了维度诅咒的问题
 
 ### 核
