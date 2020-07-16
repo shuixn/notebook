@@ -154,6 +154,16 @@ AOF文件保存的数据更完整，基本上最多损失1s的数据
 5. violation-random：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，随机移除某个key。
 6. violation-ttl：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，有更早过期时间的key优先移除
 
+## 线程模型
+
+1. 为什么 Redis 在最初的版本中选择单线程模型？
+    1. 使用单线程模型能带来更好的可维护性，方便开发和调试；(多线程的竞态条件)
+    2. 使用单线程模型也能并发的处理客户端的请求；（IO多路复用）
+    3. Redis 服务中运行的绝大多数操作的性能瓶颈都不是 CPU；
+2. 为什么 Redis 在 4.0 之后的版本中加入了多线程的支持？
+    1. Redis 在最新的几个版本中加入了一些可以被其他线程异步处理的删除操作： UNLINK、FLUSHALL ASYNC 和 FLUSHDB ASYNC
+    2. 耗时长的操作通过后台线程异步进行处理
+
 ## 适用场景
 
 1. 数据高并发读写
@@ -192,3 +202,4 @@ AOF文件保存的数据更完整，基本上最多损失1s的数据
 
 1. [千万用户排名设计](https://zhuanlan.zhihu.com/p/50770947)
 2. [Redis原子计数器incr](https://blog.csdn.net/Roy_70/article/details/78260826)
+3. [为什么Redis选择单线程模型](https://draveness.me/whys-the-design-redis-single-thread/)

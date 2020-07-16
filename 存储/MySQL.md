@@ -108,6 +108,10 @@ SELECT * FROM employees.titles WHERE emp_no='10001' AND title LIKE 'Senior%';
 
 范围列可以用到索引（必须是最左前缀），但是范围列后面的列无法用到索引。同时，索引最多用于一个范围列，因此如果查询条件中有两个范围列则无法全用到索引。
 
+### 覆盖索引与回表
+
+[MySQL的覆盖索引与回表](https://juejin.im/post/5e412378f265da5709701282)
+
 ## 存储引擎
 
 myisam和innodb
