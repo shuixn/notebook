@@ -4,6 +4,7 @@
 
 |日期|书名|作者|译者|
 |----------|----------|----------|----------|
+|07|[笛卡尔-牛津通识读本](https://book.douban.com/subject/25870677/)|[英国]汤姆·索雷尔|李永毅|
 |07|[计算广告](https://book.douban.com/subject/26596778/)|Toby Segaran|莫映 / 王开福|
 |07|[集体智慧编程](https://book.douban.com/subject/3288908/)|刘鹏 / 王超|-|
 |06|[大型网站技术架构](https://book.douban.com/subject/25723064/)|李智慧|-|
