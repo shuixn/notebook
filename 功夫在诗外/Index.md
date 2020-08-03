@@ -4,9 +4,9 @@
 
 |日期|书名|作者|译者|
 |----------|----------|----------|----------|
+|08|[游戏数据分析的艺术](https://book.douban.com/subject/26464679/)|于洋 / 余敏雄 / 吴娜 / 师胜柱|-|
 |07|[人性的弱点](https://book.douban.com/subject/1837006/)|戴尔·卡内基|赵虚年|
 |07|[笛卡尔-牛津通识读本](https://book.douban.com/subject/25870677/)|[英国]汤姆·索雷尔|李永毅|
-|07|[计算广告](https://book.douban.com/subject/26596778/)|Toby Segaran|莫映 / 王开福|
 |07|[集体智慧编程](https://book.douban.com/subject/3288908/)|刘鹏 / 王超|-|
 |06|[大型网站技术架构](https://book.douban.com/subject/25723064/)|李智慧|-|
 |06|[洞穴奇案](https://book.douban.com/subject/3697494)|萨伯|陈福勇 / 张世泰|
