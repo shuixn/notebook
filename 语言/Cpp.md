@@ -9,3 +9,7 @@ Cpp
 echo "alias g++='g++ -std=c++11'" >> ~/.bashrc
 source ~/.bashrc
 ```
+
+## 存储区域
+
+![存储区域](/images/语言/cpp/存储区域.png)
