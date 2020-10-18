@@ -59,6 +59,7 @@ echo ANIMALS[1]; // 输出 "cat"
         private const PRIVATE_CONST = 4;
     }
     ```
+
 ### 函数
 
 1. 类型声明
