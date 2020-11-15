@@ -4,6 +4,7 @@
 
 |日期|书名|作者|译者|
 |----------|----------|----------|----------|
+|11|[知行合一王阳明（1472—1529）](https://book.douban.com/subject/25911978/)|度阴山|-|
 |10|[人生的智慧](https://book.douban.com/subject/3261600/)|叔本华|韦启昌|
 |09|[PHP7内核剖析](https://github.com/pangudashu/php7-internal)|秦朋|-|
 |08|[硅谷钢铁侠：埃隆·马斯克的冒险人生](https://book.douban.com/subject/26759508/)|阿什利·万斯|周恒星|
