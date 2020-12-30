@@ -4,6 +4,7 @@
 
 |日期|书名|作者|译者|
 |----------|----------|----------|----------|
+|12|[洞见](https://book.douban.com/subject/35140470/)|（美）罗伯特·赖特|宋伟|
 |11|[知行合一王阳明（1472—1529）](https://book.douban.com/subject/25911978/)|度阴山|-|
 |10|[人生的智慧](https://book.douban.com/subject/3261600/)|叔本华|韦启昌|
 |09|[PHP7内核剖析](https://github.com/pangudashu/php7-internal)|秦朋|-|
